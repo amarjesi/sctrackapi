@@ -43,6 +43,16 @@ public class MyController {
         return c1;
     }
 	
+	@GetMapping("/customerdavid")
+    public Customer getCustomerDavid() {
+		Customer c1 = new Customer();
+		c1.setCustomerName("David");
+		c1.setCustomerAge(50);
+		c1.setCustomerSal(8000.00);
+        return c1;
+    }
+	
+	
    }
 
 	
