@@ -17,6 +17,13 @@ public class MyController {
         return "Hello Garima";
     }
 
+	
+	@GetMapping("/bye")
+    public String saybye() {
+        return "bye Garima";
+    }
+	
+	
 	@GetMapping("/helloammar")
     public String sayHelloAmar() {
         return "Hello Amar";
